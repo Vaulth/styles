@@ -1,7 +1,5 @@
 .footer {
     background-color: #000000;
-    width: 100%;
-    margin-top: auto;
 }
 
 .content {
@@ -40,16 +38,16 @@
     bottom: 0;
 }
 
-.a {
+.link {
     text-decoration: none;
     color: #ffffff;
 }
 
-.a:visited {
+.link:visited {
     color: #ffffff;
     text-decoration: none;
 }
 
-.a:hover {
+.link:hover {
     border-bottom: 2px solid;
 }

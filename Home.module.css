@@ -1,0 +1,4 @@
+.defaultPageWidth > * {
+    margin-inline: auto;
+    /* max-width: 1400px; /* Recommended width for a webpage */
+}

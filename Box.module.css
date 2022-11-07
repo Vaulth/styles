@@ -1,0 +1,25 @@
+.box {
+    color: var(--color-text-light);
+    border: 1px solid var(--color-contrast);
+    display: flex;
+    overflow: hidden;
+    max-width: 1400px;
+}
+
+.box > * {
+    border-radius: var(--radius-main);
+    background-color: var(--color-background);
+    width: 100%;
+    z-index: 2;
+}
+
+.boxContent {
+    position: relative;
+    z-index: 2;
+    border-radius: var(--radius-main);
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 20px var(--color-contrast);
+    backdrop-filter: blur(32px);
+    padding: var(--space-large);
+}
