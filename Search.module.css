@@ -1,0 +1,9 @@
+.page_container {
+    width: 100%;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 1400px;
+    padding: 0 20px 0 20px;
+}

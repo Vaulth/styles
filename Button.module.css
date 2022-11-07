@@ -1,0 +1,58 @@
+.button {
+    font-family: 'Sora', serif;
+    font-size: 16px;
+    border: none;
+    background-color: var(--color-light-button);
+    color: var(--color-light-button-text);
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-bottom: 4px;
+
+    -webkit-box-shadow: 0 4px 0 0 rgba(0,0,0,0.25);
+    box-shadow: 0 4px 0 0 rgba(0,0,0,0.25);
+
+    cursor: pointer;
+    transition-duration: 00ms;
+}
+
+.button:hover {
+    -webkit-box-shadow: 0 3px 0 0 rgba(0,0,0,0.25);
+    box-shadow: 0 3px 0 0 rgba(0,0,0,0.25);
+
+    transform: translateY(1px);
+}
+
+.button:active {
+    -webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.25);
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.25);
+
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.buttonDisabled {
+    font-family: 'Sora', serif;
+    font-size: 16px;
+    border: none;
+    background-color: var(--color-light-button-disabled);
+    color: var(--color-light-button-text-disabled);
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-bottom: 4px;
+
+    -webkit-box-shadow: 0 4px 0 0 rgba(0,0,0,0.25);
+    box-shadow: 0 4px 0 0 rgba(0,0,0,0.25);
+
+    cursor: default;
+}
+
+.buttonContent {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 10px;
+}
