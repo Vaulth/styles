@@ -1,9 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    background-color: var(--color-contrast);
-    gap: 1px;
-    border: 1px solid var(--color-contrast);
+    gap: 10px;
     max-width: 1400px;
 }
 
@@ -18,9 +16,12 @@
 }
 
 .container > * {
-    background-color: var(--color-background);
+    background-color: #00000066;
+    backdrop-filter: blur(20px);
     border-radius: var(--radius-main);
     padding: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff22;
 }
 
 .argumentContainer {

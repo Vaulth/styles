@@ -1,12 +1,10 @@
 .container_normal {
-    backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     z-index: 9998;
 }
 
 .sticky {
-    backdrop-filter: blur(10px);
     background-color: #00000022;
 }
 
@@ -24,6 +22,7 @@
 .external, .internal {
     display: flex;
     gap: 20px;
+    color: #ffffff;
 }
 
 .external {
@@ -36,7 +35,7 @@
 }
 
 .separator {
-    background-color: var(--color-light-text);
+    background-color: #ffffff66;
     width: 20px;
     height: 1px;
     margin: auto;
