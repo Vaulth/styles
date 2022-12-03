@@ -34,10 +34,10 @@
 }
 
 .argumentContainer {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: var(--color);
     border-radius: var(--radius-main);
     padding: 40px;
-    color: var(--color);
+    color: var(--secondary);
 }
 
 .argumentContainer:hover {

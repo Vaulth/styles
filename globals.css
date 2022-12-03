@@ -15,8 +15,8 @@ code {
 }
 
 :root {
-  --color: #FFFFFF; /* Main accent color */
-  --secondary: rgba(0, 0, 0, .9); /* Main accent color */
+  --color: rgba(255, 255, 255, 1); /* Main accent color */
+  --secondary: rgba(0, 0, 0, 1); /* Main accent color */
   --text: #FFFFFF;
 
   --color-background: #EFEFEF;

@@ -1,6 +1,6 @@
 .downer {
     max-width: 1400px;
-    margin: 0 auto 0 auto;
+    margin: 40px auto 40px auto;
 }
 
 .downer:hover > .text, .downer:hover > .icon {
@@ -24,7 +24,7 @@
     width: 100%;
     margin: auto;
     color: var(--color);
-    opacity: 20%;
+    opacity: 60%;
     transition-duration: 200ms;
 
     animation-duration: 1000ms;
