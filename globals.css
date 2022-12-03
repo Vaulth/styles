@@ -15,6 +15,10 @@ code {
 }
 
 :root {
+  --color: #FFFFFF; /* Main accent color */
+  --secondary: rgba(0, 0, 0, .9); /* Main accent color */
+  --text: #FFFFFF;
+
   --color-background: #EFEFEF;
   --color-contrast: #000000;
 
@@ -36,11 +40,12 @@ code {
 
   --space-large: 2em;
 
-  --radius-main: 25px;
+  --radius-main: 20px;
   --paragraph-line-height: 1.5em;
 }
 
 main {
+  scroll-behavior:smooth;
   height: 100vh;
   box-sizing: border-box;
   background-color: var(--color-background);
