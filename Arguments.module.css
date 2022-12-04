@@ -12,14 +12,13 @@
 
 .entry_image {
     position: relative;
-    width: 400px;
+    min-width: 400px;
     height: inherit;
     border-radius: var(--radius-main);
 }
 
 .entry_image > * {
     border-radius: var(--radius-main);
-    border: 1px solid #ffffff88;
 }
 
 .line_container {

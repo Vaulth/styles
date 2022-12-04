@@ -8,6 +8,27 @@
     background-color: #00000022;
 }
 
+.notification_container {
+    background-color: #000000;
+    color: #ffffff;
+    background-blend-mode: difference;
+
+}
+
+.notification {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    margin: auto;
+}
+
+.notification_button {
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
