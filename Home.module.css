@@ -8,3 +8,12 @@
     background-size: cover;
     background-attachment: scroll;
 }
+
+.center {
+    display: flex;
+    width: 100%;
+}
+
+.center > * {
+    margin: auto;
+}
