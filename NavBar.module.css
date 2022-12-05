@@ -49,6 +49,20 @@
 .logo {
 }
 
+.title {
+    font-weight: 900;
+
+    animation-duration: 2000ms;
+    animation-name: glow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.title_thin {
+    font-weight: 200;
+    font-style: normal;
+}
+
 .external {
     justify-content: right;
 }
@@ -63,4 +77,14 @@
     width: 20px;
     height: 1px;
     margin: auto;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: rgba(255,255,255,0.9) 0px 0px 15px;
+    }
+
+    to {
+        text-shadow: rgba(255,255,255,0.6) 0px 0px 10px;
+    }
 }

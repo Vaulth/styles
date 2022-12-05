@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 0px;
     max-width: 1400px;
 }
 
@@ -27,9 +27,10 @@
 }
 
 .line {
-    height: 2px;
+    margin-left: 40px;
+    height: 40px;
     background-color: var(--color);
-    width: 40px;
+    width: 2px;
 }
 
 .argumentContainer {
@@ -58,7 +59,7 @@
 }
 
 .button_container {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
