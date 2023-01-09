@@ -3,7 +3,7 @@
 }
 
 .defaultPageWidth {
-    background-image: linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 50%, rgba(0,0,0,.4) 100%), url("../public/art.jpg");
+    background-image: linear-gradient(0deg, var(--secondary) 0%, var(--secondary) 50%, rgba(0,0,0,.4) 100%), url("../public/DVD5.png");
     background-size: cover;
     background-attachment: scroll;
 }
